@@ -27,6 +27,8 @@ Navigate to the repository's root directory and run 'npm i' to acquire the modul
 
 This application requires a MySQL database in order to run; use the included schema.sql file to create this database. Once this has been done, seeds can be added to test the api endpoints. Run 'node seeds/index.js' in order to seed the database; the application can be started using 'npm start' in the commandline, and the api endpoints can be tested in a browser or similar testing environment.
 
+Please make sure the included .env.example file is edited to include the information necessary for the application to access your database, and that it is renamed to simply .env
+
 A video walkthrough can be found [at this link.](https://www.youtube.com/watch?v=7tK51AMAWIc)
 
 
